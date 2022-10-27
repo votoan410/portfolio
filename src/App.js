@@ -22,13 +22,13 @@ function App() {
           <Navbar />
 
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route exact path="/portfolio" element={<Home />} />
             {/* <Route path="/about" element={}/> */}
-            <Route path="/projects" element={<Projects />} />
+            <Route exact path="/projects" element={<Projects />} />
             {/* different routes for projects:  */}
-            <Route path="/project/:id" element={<ProjectDisplay />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/Contact" element={<ContactMe />} />
+            <Route exact path="/project/:id" element={<ProjectDisplay />} />
+            <Route exact path="/experience" element={<Experience />} />
+            <Route exact path="/Contact" element={<ContactMe />} />
           </Routes>
           <Footer />
         </Router>
