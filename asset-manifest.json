@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d56eef56.css",
+    "main.js": "/static/js/main.d1cf79c2.js",
+    "static/media/crimestopper.png": "/static/media/crimestopper.c8b0e0c36a72684ff96d.png",
+    "static/media/gildan.png": "/static/media/gildan.2dcba1e1b85aeddf0b40.png",
+    "static/media/pathFinder.png": "/static/media/pathFinder.9942afb7b470eb5aeaca.png",
+    "static/media/laptop.svg": "/static/media/laptop.bcbaaa1f4c22e4e6f5e679d67cd28615.svg",
+    "index.html": "/index.html",
+    "main.d56eef56.css.map": "/static/css/main.d56eef56.css.map",
+    "main.d1cf79c2.js.map": "/static/js/main.d1cf79c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d56eef56.css",
+    "static/js/main.d1cf79c2.js"
+  ]
+}
