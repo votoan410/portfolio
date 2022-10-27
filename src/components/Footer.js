@@ -8,12 +8,12 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="socialMedia">
+      {/* <div className="socialMedia">
         <InstagramIcon />
         <TwitterIcon />
         <FacebookIcon />
-      </div>
-      <p> &copy; 2022 </p>
+      </div> */}
+      <p> &copy; 2022 By Timmy </p>
     </footer>
   );
 }

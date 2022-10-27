@@ -12,7 +12,7 @@ function Home() {
       <div className="about">
         <h2> Hi there, My Name is Timmy</h2>
         <div className="prompt">
-          <p>Check out my history: </p>
+          {/* <p>Check out my history: </p> */}
 
           <div className="intro-section">
             <div classname="intro-svg">
@@ -24,7 +24,7 @@ function Home() {
             </div>
             <ul className="intro-list">
               <li>
-                2 years of experience in web technologies and user interface
+                4 years of experience in web technologies and user interface
                 development, experienced in HTML5, DOM, CSS3, Bootstrap,
                 JavaScript, TypeScript, jQuery, React, Node.js, Redux, Express,
                 Webpack, AJAX, JSON.
@@ -36,8 +36,9 @@ function Home() {
                 Router, Redux Thunk in React for API calls.
               </li>
               <li>
-                Experienced in implementing Node.js for data storage and
-                retrieval in MongoDB by utilizing Mongoose framework.
+                Experienced in implementing RESTful API with Node.js Express for
+                data storage and retrieval in MongoDB by utilizing Mongoose
+                framework.
               </li>
               <li>
                 Experienced in front-end unit testing, including Jest, Enzyme.
@@ -52,6 +53,10 @@ function Home() {
               </li>
               <li>
                 Experienced in version control tool utilizations such as GIT.
+              </li>
+              <li>
+                Experienced in using Travis CI to build a CICD pipeline that
+                enhance the software Development process.
               </li>
               <li>
                 Excellent goal-oriented and motivated team player, fast learner
@@ -71,18 +76,20 @@ function Home() {
             <h2> Front-End</h2>
             <span>
               ReactJS, Redux, HTML, CSS, SCSS, NPM, Ionic, BootStrap,
-              MaterialUI, Yarn, StyledComponents
+              MaterialUI, Yarn, Next.js.
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>
-              ExpressJS, Java Spring Boot, GraphQL, MySQL, MongoDB, AWS S3
-            </span>
+            <span>ExpressJS, GraphQL, MySQL, MongoDB, AWS S3</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, TypeScript</span>
+            <span>JavaScript/TypeScript, Java, Python</span>
+          </li>
+          <li className="item">
+            <h2>Others</h2>
+            <span>Docker, Travis CI, AWS</span>
           </li>
         </ol>
       </div>

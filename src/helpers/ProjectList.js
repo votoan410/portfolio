@@ -1,4 +1,3 @@
-import Proj1 from "../assets/proj1.jpg";
 import PathFinder from "../assets/pathFinder.png";
 import gildan from "../assets/gildan.png";
 import crimestopper from "../assets/crimestopper.png";
@@ -10,14 +9,16 @@ export const ProjectList = [
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Asset Management site",
+    name: "Asset Management site - CMS application",
     image: gildan,
     skills: "React,Node.js",
+    url: "https://dp.gildan.com/",
   },
   {
     name: "Public Service Application",
     image: crimestopper,
-    skills: "React,Node.js, Java Spring Boot",
+    skills: "React,Node.js, Express JS",
+    url: "https://crime-stoppers.org/",
   },
   // {
   //   name: "Social Media Website",

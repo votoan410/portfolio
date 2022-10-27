@@ -14,6 +14,13 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
+      <p>
+        {project.url ? (
+          <a href={project.url} target="_blank" rel="noreferrer">
+            Click here to see the site
+          </a>
+        ) : null}
+      </p>
       {/* <GitHubIcon /> */}
     </div>
   );

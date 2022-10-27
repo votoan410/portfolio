@@ -14,6 +14,10 @@
   color: white;
 }
 
+.links a {
+  white-space: nowrap;
+}
+
 .navbar a {
   color: white;
   background-color: steelblue;
@@ -80,6 +84,7 @@
   }
 }
 
+/* disable toggle button set to none  */
 @media only screen and (min-width: 600px) {
   .toggleButton {
     display: none;

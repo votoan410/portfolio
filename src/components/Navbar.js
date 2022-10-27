@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
+import WorkIcon from "@material-ui/icons/Work";
 
 function Navbar() {
   // control the state open and close of the icon
@@ -29,6 +30,9 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experiences </Link>
+        <Link to="/Contact">
+          Contact Me <WorkIcon />{" "}
+        </Link>
       </div>
     </div>
   );
