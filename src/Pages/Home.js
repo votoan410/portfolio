@@ -24,7 +24,7 @@ function Home() {
             </div>
             <ul className="intro-list">
               <li>
-                4 years of experience in web technologies and user interface
+                More than 2 years of experience in web technologies and user interface
                 development, experienced in HTML5, DOM, CSS3, Bootstrap,
                 JavaScript, TypeScript, jQuery, React, Node.js, Redux, Express,
                 Webpack, AJAX, JSON.
