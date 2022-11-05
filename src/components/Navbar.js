@@ -30,6 +30,7 @@ function Navbar() {
         <Link to="/portfolio"> Home </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experiences </Link>
+        {/* <Link to="/PersonalGraphs"> Graphs </Link> */}
         <Link to="/Contact">
           Contact Me <WorkIcon />{" "}
         </Link>

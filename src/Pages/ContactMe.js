@@ -54,7 +54,7 @@ function ContactMe() {
     };
   }, [sendState]);
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5">
       <h2 className="mb-3">
         Hire Me <WorkIcon />
       </h2>

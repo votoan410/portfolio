@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./Pages/ProjectDisplay";
 import ContactMe from "./Pages/ContactMe";
+import PersonalGraphs from "./Pages/PersonalGraphs";
 
 function App() {
   /**
@@ -28,9 +29,10 @@ function App() {
             {/* different routes for projects:  */}
             <Route exact path="/project/:id" element={<ProjectDisplay />} />
             <Route exact path="/experience" element={<Experience />} />
+            <Route exact path="/PersonalGraphs" element={<PersonalGraphs />} />
             <Route exact path="/Contact" element={<ContactMe />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       </div>
     </>
