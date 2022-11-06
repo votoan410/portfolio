@@ -28,6 +28,7 @@
   border: solid;
   border-radius: 5px;
   padding: 10px;
+  overflow-x: hidden;
 }
 
 .links a:hover {
@@ -54,18 +55,18 @@
 }
 
 #open {
-  height: 100vh;
+  height: 100%;
 }
 
 #open .links {
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 100px;
 }
 
 #open a {
   width: 100%;
   text-align: center;
+  overflow: hidden;
 }
 
 /* responsive design */
@@ -75,7 +76,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .toggleButton {
     display: flex;
   }
@@ -85,7 +86,7 @@
 }
 
 /* disable toggle button set to none  */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .toggleButton {
     display: none;
   }
